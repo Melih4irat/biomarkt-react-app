@@ -23,12 +23,12 @@ export default function Angebote() {
   const imageOrder = (imageFirst) => {
     return (
       <>
-        {imageFirst && <Img src={data.cta.image} alt="CTA Bild" />}
+        {imageFirst && <Img src={data.cta.image} alt="CTA Bilder" />}
         <OfferContainer>
           <h3>{data.cta.heading}</h3>
           <p>{data.cta.text}</p>
         </OfferContainer>
-        {!imageFirst && <Img src={data.cta.image} alt="CTA Bild" />}
+        {!imageFirst && <Img src={data.cta.image} alt="CTA Bilder" />}
       </>
     );
   };
