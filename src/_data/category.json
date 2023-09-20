@@ -1,0 +1,26 @@
+[
+  {
+    "id": "0",
+    "heading": "NEU IM SORTIMENT",
+    "background": "/assets/neu.png",
+    "link": "URL"
+  },
+  {
+    "id": "1",
+    "heading": "GEMÜSE DES TAGES",
+    "background": "/assets/gemuese.png",
+    "link": "URL"
+  },
+  {
+    "id": "2",
+    "heading": "KÄSE DER WOCHE",
+    "background": "/assets/kaese.png",
+    "link": "URL"
+  },
+  {
+    "id": "3",
+    "heading": "WEIN DES MONATS",
+    "background": "/assets/wein.png",
+    "link": "URL"
+  }
+]
