@@ -50,10 +50,8 @@ export default function Angebote() {
           </Grid>
           <GreenBox>
             <Grid>
-              <Content>
-                {imageOrder(false)}
-                <Button onClick={"/"}>{data.cta.button}</Button>
-              </Content>
+              <Content>{imageOrder(false)}</Content>
+              <Button onClick={"/"}>{data.cta.button}</Button>
             </Grid>
           </GreenBox>
         </Box>
@@ -72,6 +70,7 @@ const Section = styled.section`
 `;
 const Grid = styled.div`
   width: 80%;
+  max-width: 1400px;
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0 auto;
@@ -151,10 +150,9 @@ const Content = styled.div`
 `;
 const Button = styled.button`
   position: absolute;
-  width: 250px;
+  padding: 5px 15px;
   bottom: -20px;
-  left: 40%;
-  right: 40%;
+
   background-color: #aac900;
   border: none;
   border-radius: 20px;
@@ -164,6 +162,9 @@ const Button = styled.button`
   text-transform: uppercase;
   color: #fff;
   cursor: pointer;
+  @media (max-width: 675px) {
+    font-size: 12px;
+  }
 `;
 
 const OfferContainer = styled.div`
